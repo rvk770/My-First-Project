@@ -200,6 +200,12 @@ flex-direction: column;
    opacity: 1; }
 
    /* PROJECTS */
+   .project {
+      margin-bottom:100px;
+   }
+   .project:last-child {
+      margin-bottom: 40px;
+   }
 
   .project__img  {
    width: 100%;
@@ -247,7 +253,7 @@ flex-direction: column;
    max-width: 550px;
    z-index: 3;
    opacity: 0;
-   transition: opacity 300ms; 
+   transition: 450ms, opacity 300ms; 
 }
 .project__description--title {
    font-size: 40px;
